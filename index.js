@@ -27,6 +27,9 @@ app.get("/all",(req,res)=>{
 app.get("/ram",(req,res)=>{
     res.end("maddy");
 })
+app.get("/test",(req,res)=>{
+    res.end("123465978");
+})
 // mongoose.connect(db.url,{useNewUrlParser:true},function(err,con){
 //     if(err)
 //     console.log(err)
