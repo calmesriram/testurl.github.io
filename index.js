@@ -24,6 +24,9 @@ app.get("/all",(req,res)=>{
     res.json(array);
     res.end();
 })
+app.get("/ram",(req,res)=>{
+    res.end("maddy");
+})
 // mongoose.connect(db.url,{useNewUrlParser:true},function(err,con){
 //     if(err)
 //     console.log(err)
