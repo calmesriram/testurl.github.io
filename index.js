@@ -24,12 +24,11 @@ app.get("/all",(req,res)=>{
     res.json(array);
     res.end();
 })
-app.get("/ram",(req,res)=>{
-    res.end("maddy");
+app.get("/hello",(req,res)=>{
+ res.json("No more data");
+ res.end();
 })
-app.get("/test",(req,res)=>{
-    res.end("123465978");
-})
+
 // mongoose.connect(db.url,{useNewUrlParser:true},function(err,con){
 //     if(err)
 //     console.log(err)
