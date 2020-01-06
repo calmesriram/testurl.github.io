@@ -28,6 +28,10 @@ app.get("/hello",(req,res)=>{
  res.json("No more data");
  res.end();
 })
+app.get("/maddylusu",(req,res)=>{
+    res.json("welcome");
+    res.end();
+   })
 
 // mongoose.connect(db.url,{useNewUrlParser:true},function(err,con){
 //     if(err)
